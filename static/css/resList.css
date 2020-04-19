@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+.resContent{
+    width:100%;
+    margin:11px;
+    display:flex;
+}
+#treeAside{
+    padding:5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .1)
+}
+#treeMain{
+    padding:5px;
+    display:flex;
+    flex-direction:column;
+}
+.treeTitle{
+    padding-left:10px;
+}
+.treeButton{
+    height:50px;
+    width:100%;
+    position: relative;
+}
+.treeTable{
+    width:100%;
+    flex:1;
+}
+.treeButton button{
+    position: absolute;
+    right: 0px;
+}
+.el-tree /deep/ .el-tree-node .el-tree-node__content{
+  width: 180px;
+  height: 30px;
+  background:#e3e3e3;
+  margin: 1px 0;
+  color: rgb(78, 161, 230);
+}
+.el-tree /deep/ .is-current>.el-tree-node__content{
+  background:#e3e3e3 !important;
+  color: rgb(78, 161, 230) !important;
+}
+.el-tree /deep/ .el-tree-node__label {
+  display: inline-block;
+  width: 72%;
+}
+.el-tree /deep/ .el-tree-node__children .el-tree-node__content{
+  width:200px;
+  height:34px;
+  background:#e3e3e3 !important;
+}
+.el-tree /deep/ .el-tree-node__children .is-current .el-tree-node__content {
+  background: #f4f4f4 !important;
+  color: rgb(78, 161, 230) !important;
+}
+.el-tree /deep/ .el-tree-node__children .el-tree-node__content{
+  color: rgb(78, 161, 230) !important;
+}
+.el-tree .el-tree-node__expand-icon{
+  color: rgb(78, 161, 230) !important;
+}
+.el-tree-node__expand-icon.is-leaf{
+  color: transparent !important;
+}

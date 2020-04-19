@@ -1,0 +1,62 @@
+.boxContent{
+    width:100%;
+    height:auto;
+    padding: 10px;
+}
+.rHead{
+    width:100%;
+    height:40px;
+    border-radius: 4px;
+    line-height: 50px;
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 7px;
+}
+.rHead div{
+    height:40px;
+    line-height: 40px;
+    font-size: 17px;
+}
+.rContent{
+    width:100%;
+    height:auto;
+    clear: both;
+}
+.roleAdd{
+    width:100px;
+    height: 100%;
+}
+.roleBreadcrumb{
+    width:60%;
+    display: inline-block;
+}
+
+.roleAddForm > div:nth-child(1){
+    background: #409EFF;
+    padding:10px 20px 10px 20px !important;
+}
+.roleAddForm > div:nth-child(1) > span:nth-of-type(1){
+    font-size:15px;
+    color:#fff;
+}
+.roleAddForm > div:nth-child(1) > button:nth-of-type(1){
+    top:15px;
+}
+.roleAddForm > div:nth-child(1) > button:nth-of-type(1) > i{
+    color:#fff;
+}
+.addRoleName{
+    width:175px;
+}
+.updatePermissionButton{
+   width:100%;
+   height:auto;
+   margin-top: 7px;
+   text-align: center; 
+}
+.userTableInput{
+    height:40px;
+}
+.userTablePage{
+    margin-top:10px;
+}

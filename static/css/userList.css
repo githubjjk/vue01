@@ -1,0 +1,38 @@
+.boxContent{
+    width:100%;
+    height:auto;
+    padding: 10px;
+}
+.uHead{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7px;
+}
+.uHead div{
+    height:40px;
+    line-height: 40px;
+    font-size: 17px;
+}
+.userAdd{
+    width:100px;
+    height: 100%;
+}
+.userBreadcrumb{
+    width:60%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.rContent .el-table td, .el-table th{
+    padding:7px 0;
+}
+.adminSearch{
+    width:100%;
+    height: 45px;
+}
+.rcThead{
+    background: rgb(73, 72, 72) !important;
+}

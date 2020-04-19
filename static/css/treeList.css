@@ -1,0 +1,49 @@
+.boxContent{
+    width:100%;
+    height:auto;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.rHead{
+    width:100%;
+    height:40px;
+    border-radius: 4px;
+    line-height: 50px;
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 7px;
+}
+.rHead div{
+    height:40px;
+    line-height: 40px;
+    font-size: 17px;
+}
+.treeContent{
+    width:100%;
+    height:auto;
+    border: 1px solid #d7dae2;
+}
+.menuTree{
+    border-right:1px solid #d7dae2;
+}
+.roleAddForm > div:nth-child(1){
+    background: #409EFF;
+    padding:10px 20px 10px 20px !important;
+}
+.roleAddForm > div:nth-child(1) > span:nth-of-type(1){
+    font-size:15px;
+    color:#fff;
+}
+.roleAddForm > div:nth-child(1) > button:nth-of-type(1){
+    top:15px;
+}
+.roleAddForm > div:nth-child(1) > button:nth-of-type(1) > i{
+    color:#fff;
+}
+.editorName label{
+    width:0 !important;
+}
+.editorName div:nth-of-type(1){
+    width:100%;
+}
